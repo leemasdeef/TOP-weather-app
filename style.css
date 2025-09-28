@@ -1,0 +1,16 @@
+body {
+    background-color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.weather-container {
+    margin: 25vh auto auto auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 80vh;
+    background-color: antiquewhite;
+    
+    
+}
