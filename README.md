@@ -4,7 +4,7 @@
 
 <p align='center'> Minimialistic weather app for The Odin Project.</p>
 
-<p align='center'>[Live Demo](https://flippy-eight.vercel.app)</p>
+<p align='center'>[Live Demo](https://liquid-glass-weather-app.netlify.app)</p>
 
 <h2>Built with</h2>
 
