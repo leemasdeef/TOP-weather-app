@@ -1,16 +1,102 @@
 body {
-    background-color: aliceblue;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  background-image: url("/images/neon-cyberpunk-bg.jpeg");
+  background-size: cover;
+  font-family: "Iceland", sans-serif;
+  color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  width: 90%;
+  max-width: 420px;
+}
+
+#search {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+#search input {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(11, 185, 48, 0.1);
+  color: greenyellow;
+  font-size: 1.1rem;
+}
+
+#search button {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.2s;
+}
+
+#search button:hover {
+  background: rgb(150, 222, 41);
 }
 
 .weather-container {
-    margin: 25vh auto auto auto;
-    border: 2px solid black;
-    border-radius: 10px;
-    text-align: center;
-    width: 80vh;
-    background-color: antiquewhite;
-    
-    
+  border-radius: 15px;
+  text-align: center;
+  width: 80vh;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(11, 185, 48, 0.1);
+}
+
+.main-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main-info h1 {
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.main-info p {
+  margin: 4px 0;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  opacity: 0.85;
+}
+
+.temperature {
+  display: block;
+  margin-top: 10px;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.detailed-info {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.detailed-info p {
+  margin: 6px 0;
+  font-size: 1.2rem;
+  opacity: 0.85;
 }
